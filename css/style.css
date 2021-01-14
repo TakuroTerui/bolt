@@ -6,7 +6,6 @@ body {
 
 .inner {
   max-width: 1100px;
-  box-sizing: border-box;
   text-align: center;
   margin: 0 auto;
 }
@@ -20,23 +19,22 @@ body {
 .header {
   width: 100%;
   background-color:#fff;
-  height:80px;
+  height:50px;
   position: fixed;
   z-index: 999;
+  padding: 15px 0;
 }
 
 .inner-header{
+  height: 80px;
   display: flex;
   position: relative;
 }
 
 .wrapper-icon {
-  margin-top: 15px;
-  margin-bottom: 15px;
   position: absolute;
   left: 0;
 }
-
 
 .fa-bolt {
   font-size: 50px;
@@ -49,7 +47,6 @@ body {
   background-color: #74cfae;
   position: absolute;
   left: 90%;
-  margin-top: 15px;
   color: #fff;
   transition: all 0.3s;
   text-decoration: none;
@@ -65,7 +62,6 @@ body {
 }
 
 .theme {
-  width: 100%;
   background-color: #f2f2f2;
   padding-top: 250px;
   padding-bottom: 250px;
@@ -84,7 +80,6 @@ body {
 }
 
 .explanation {
-  width: 100%;
   background-color: #74cfae;
 }
 
@@ -92,28 +87,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-top: 50px;
 }
 
 .wrapper-iphone-img {
-  /* position: relative; */
   font-size: 0;
 }
 
-.iphone-img {
-  margin-top: 50px;
-  /* position: relative;
-  bottom: 0;
-  display: inline-block; */
-}
-
 .explanation-title-text {
-  width: 750px;
+  width: 700px;
   color: #fff;
+  margin-bottom: 50px;
 }
 
 .explanation-title {
   font-size: 24px;
-  margin-bottom: 35px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -122,17 +110,24 @@ body {
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 35px;
 }
 
 .image {
-  width: 100%;
   background-color: #f2f2f2;
+  padding-bottom: 70px;
 }
 
 .title-image {
   padding-top: 60px;
-  padding-bottom: 40px;
   font-size: 24px;
+  color: #333;
+}
+
+.multiple-image {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .top-image {
@@ -160,18 +155,27 @@ body {
   margin-left: 0;
 }
 
+.image-img:nth-child(4) {
+  margin-left: 0;
+}
+
+.image-img:nth-child(n+4) {
+  margin-top: 80px;
+}
+
 .wrapper-image {
   display: flex;
   justify-content: center;
+  margin-top: 90px;
 }
 
 .text-image {
-  width: 540px;
-  margin-bottom: 70px;
-  margin-right: 90px;
+  width: 500px;
+  color: #333;
 }
 
 .btn-image {
+  margin-left: 90px;
   font-size: 12px;
   padding: 14px 20px;
   color: #fff;
@@ -189,28 +193,20 @@ body {
 .graph {
   width: 100%;
   background-color: #4e4e4e;
+  padding-top: 70px;
+  padding-bottom: 100px; 
 }
 
 .title-graph {
-  padding-top: 70px;
-  padding-bottom:70px;
+  margin-bottom:70px;
   color: #fff;
   font-size: 20px;
 }
 
 .wrapper-graph {
-  padding-bottom: 100px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-.element-graph {
-  margin-left: 180px;
-}
-
-.element-graph:first-child {
-  margin-left: 0;
 }
 
 .element-text {
@@ -253,14 +249,13 @@ body {
 }
 
 .footer {
-  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 25px;
   background-color: #74cfae;
 }
 
 .text-footer {
-  padding-top: 20px;
-  padding-bottom: 25px;
   font-size: 12px;
   color: #fff;
-  margin-left: 900px;
+  text-align: right;
 }
