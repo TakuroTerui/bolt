@@ -10,34 +10,40 @@ body {
   margin: 0 auto;
 }
 
-.clearfix:after {
+/* .clearfix:after {
   content: “”;
   display: block;
   clear: both;
+} */
+
+a {
+  display: block;
 }
 
 .header {
   width: 100%;
   background-color:#fff;
-  height:50px;
+  /* height:50px; */
   position: fixed;
   z-index: 999;
   padding: 15px 0;
+  top: 0;
 }
 
 .inner-header{
-  height: 80px;
+  /* height: 80px; */
   display: flex;
-  position: relative;
+  justify-content: space-between;
+  /* position: relative; */
 }
 
 .wrapper-icon {
-  position: absolute;
-  left: 0;
+  /* position: absolute;
+  left: 0; */
 }
 
 .fa-bolt {
-  font-size: 50px;
+  font-size: 40px;
   color: #4e4e4e;
 }
 
@@ -45,8 +51,8 @@ body {
   padding: 14px 12px;
   font-size: 12px;
   background-color: #74cfae;
-  position: absolute;
-  left: 90%;
+  /* position: absolute;
+  left: 90%; */
   color: #fff;
   transition: all 0.3s;
   text-decoration: none;
@@ -58,7 +64,7 @@ body {
 }
 
 .main {
-  padding-top: 80px;
+  padding-top: 70px;
 }
 
 .theme {
@@ -85,7 +91,7 @@ body {
 
 .wrapper-explanation {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-around;
   padding-top: 50px;
 }
@@ -97,19 +103,19 @@ body {
 .explanation-title-text {
   width: 700px;
   color: #fff;
-  margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .explanation-title {
   font-size: 24px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .explanation-text {
   font-size: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   margin-top: 35px;
 }
 
@@ -128,6 +134,7 @@ body {
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
+  font-size: 0;
 }
 
 .top-image {
@@ -151,11 +158,11 @@ body {
   transition: all 0.3s;
 }
 
-.image-img:first-child {
+/* .image-img:first-child {
   margin-left: 0;
-}
+} */
 
-.image-img:nth-child(4) {
+.image-img:nth-child(3n+1) {
   margin-left: 0;
 }
 
@@ -198,12 +205,13 @@ body {
 }
 
 .title-graph {
-  margin-bottom:70px;
+  /* margin-bottom:70px; */
   color: #fff;
   font-size: 20px;
 }
 
 .wrapper-graph {
+  margin-top: 70px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -235,6 +243,10 @@ body {
   align-items: center;
   justify-content: center;
   transition: all.3s;
+}
+
+.box-sns a {
+  /* height: 100%; */
 }
 
 .sns-icon {
