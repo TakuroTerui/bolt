@@ -10,12 +10,6 @@ body {
   margin: 0 auto;
 }
 
-/* .clearfix:after {
-  content: “”;
-  display: block;
-  clear: both;
-} */
-
 a {
   display: block;
 }
@@ -23,7 +17,6 @@ a {
 .header {
   width: 100%;
   background-color:#fff;
-  /* height:50px; */
   position: fixed;
   z-index: 999;
   padding: 15px 0;
@@ -31,15 +24,8 @@ a {
 }
 
 .inner-header{
-  /* height: 80px; */
   display: flex;
   justify-content: space-between;
-  /* position: relative; */
-}
-
-.wrapper-icon {
-  /* position: absolute;
-  left: 0; */
 }
 
 .fa-bolt {
@@ -51,8 +37,6 @@ a {
   padding: 14px 12px;
   font-size: 12px;
   background-color: #74cfae;
-  /* position: absolute;
-  left: 90%; */
   color: #fff;
   transition: all 0.3s;
   text-decoration: none;
@@ -91,7 +75,6 @@ a {
 
 .wrapper-explanation {
   display: flex;
-  /* align-items: center; */
   justify-content: space-around;
   padding-top: 50px;
 }
@@ -108,14 +91,10 @@ a {
 
 .explanation-title {
   font-size: 24px;
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 
 .explanation-text {
   font-size: 20px;
-  /* margin-left: auto;
-  margin-right: auto; */
   margin-top: 35px;
 }
 
@@ -157,10 +136,6 @@ a {
   opacity: 1.0;
   transition: all 0.3s;
 }
-
-/* .image-img:first-child {
-  margin-left: 0;
-} */
 
 .image-img:nth-child(3n+1) {
   margin-left: 0;
@@ -205,7 +180,6 @@ a {
 }
 
 .title-graph {
-  /* margin-bottom:70px; */
   color: #fff;
   font-size: 20px;
 }
@@ -239,14 +213,15 @@ a {
 .box-sns {
   width: 185px;
   height: 100px;
-  display: flex;
+  display: table;
   align-items: center;
   justify-content: center;
   transition: all.3s;
 }
 
 .box-sns a {
-  /* height: 100%; */
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .sns-icon {
