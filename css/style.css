@@ -203,7 +203,7 @@ a {
 }
 
 .sns {
-  width: 100%;
+  /* width: 100%; */
   background-color: #f2f2f2;
   padding: 200px 0;
 }
@@ -250,4 +250,149 @@ a {
   color: #fff;
   text-align: right;
   font-family: 'Lato', cursive;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+@media screen and (max-width: 1199px) {
+  .inner {
+    max-width: 97%;
+  }
+
+  .explanation {
+    padding-bottom: 25px;
+  }
+
+  .wrapper-explanation {
+    display: block;
+  }
+
+  .explanation-title-text {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .multiple-image {
+    display: block;
+  }
+
+  .image-img {
+    margin-left: 0;
+  }
+
+  .image-img:nth-child(n+4) {
+    margin-top: 0;
+  }
+
+  .image-img:nth-child(4) {
+    margin-top:80px;
+  }
+
+  .wrapper-image {
+    margin-top: 80px;
+    display: block;
+  }
+
+  .text-image {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .btn-image {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width:60px;
+  }
+  
+  .wrapper-graph {
+    display: block;
+  }
+  
+  .bootstrap ,.wordpress ,.photoshop {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-btn {
+    display: none;
+  }
+ 
+  .hamburger-menu {
+    display: block;
+  }
+
+  .menu-btn {
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    height: 40px;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .menu-btn span,
+  .menu-btn span:before,
+  .menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #ddd;
+    position: absolute;
+  }
+  
+  .menu-btn span:before {
+    bottom: 8px;
+  }
+
+  .menu-btn span:after {
+    top: 8px;
+  }
+
+  .theme {
+    padding-top:160px;
+    padding-bottom: 130px;
+  }
+  
+  .theme-text-top {
+    font-size: 80px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .theme-text-bottom {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .explanation-title-text {
+    width: 297px;
+  }
+
+  .text-image {
+    width: 280px;
+  }
+
+  .sns {
+    padding: 50px 15px;
+  }
+
+  .inner-sns {
+    display: block;
+  }
+
+  .box-sns {
+    width: 100%;
+  }
 }
