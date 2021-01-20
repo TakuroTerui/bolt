@@ -105,8 +105,6 @@ a {
 
 .image {
   background-color: #f2f2f2;
-  /* padding-bottom: 70px;
-  padding-top: 60px; */
   padding: 60px 0 60px 0;
 }
 
@@ -181,8 +179,6 @@ a {
 .graph {
   width: 100%;
   background-color: #4e4e4e;
-  /* padding-top: 70px;
-  padding-bottom: 100px;  */
   padding: 70px 0 100px 0;
 }
 
@@ -241,8 +237,6 @@ a {
 }
 
 .footer {
-  /* padding-top: 20px;
-  padding-bottom: 25px; */
   padding: 20px 0 25px 0;
   background-color: #74cfae;
 }
@@ -271,9 +265,6 @@ a {
   }
 
   .explanation-title-text {
-    /* margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto; */
     margin: 20px auto 0 auto
   }
 
@@ -282,16 +273,12 @@ a {
   }
 
   .image-img {
-    /* margin-left: auto;
-    margin-right: auto; */
     margin: 0 auto 0 auto;
     height: 300px;
     width: 300px;
   }
 
   .image-img:nth-child(3n+1) {
-    /* margin-left: auto;
-    margin-right: auto; */
     margin: 0 auto 0 auto;
   }
 
@@ -315,9 +302,6 @@ a {
   }
 
   .btn-image {
-    /* margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto; */
     margin: 40px auto 0 auto;
     width: 60px;
   }
@@ -326,8 +310,8 @@ a {
     display: block;
   }
   
-  .bootstrap ,
-  .wordpress ,
+  .bootstrap,
+  .wordpress,
   .photoshop {
     margin-top: 88px;
   }
@@ -376,8 +360,6 @@ a {
   }
 
   .theme {
-    /* padding-top:160px;
-    padding-bottom: 130px; */
     padding: 160px 0 130px 0;
   }
   
@@ -389,8 +371,6 @@ a {
   
   .theme-text-bottom {
     width: 300px;
-    /* margin-left: auto;
-    margin-right: auto; */
     margin: 0 auto 0 auto;
   }
 
